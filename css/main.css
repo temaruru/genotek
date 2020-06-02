@@ -1,7 +1,7 @@
 @font-face {
   font-family: ALSStory;
-  src: url("./fonts/ALSStory.eot");
-  src: url("./fonts/ALSStory.eot") format("embedded-opentype"), url("./fonts/ALSStory.woff") format("woff"), url("./fonts/ALSStory.ttf") format("truetype");
+  src: url("../fonts/ALSStory.eot");
+  src: url("../fonts/ALSStory.eot") format("embedded-opentype"), url("../fonts/ALSStory.woff") format("woff"), url("../fonts/ALSStory.ttf") format("truetype");
   font-weight: 400;
   font-style: normal; }
 
@@ -387,7 +387,7 @@ a[role="button"]:not([disabled]) {
       margin-left: 15px;
       line-height: 16px;
       display: inline-block;
-      background: url("./images/user-ico.png") no-repeat left; }
+      background: url("../images/user-ico.png") no-repeat left; }
 
 .c-list {
   background: #142536; }
@@ -414,7 +414,7 @@ a[role="button"]:not([disabled]) {
         display: block;
         width: 16px;
         height: 9px;
-        background: url("./images/arrow-ico.png") no-repeat;
+        background: url("../images/arrow-ico.png") no-repeat;
         position: absolute;
         right: 45px;
         top: 0;
