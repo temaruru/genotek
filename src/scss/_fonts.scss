@@ -1,1 +1,7 @@
-// stylelint-disable no-empty-source
+@font-face {
+  font-family: ALSStory;
+  src: url('/fonts/ALSStory.eot');
+  src: url('/fonts/ALSStory.eot') format("embedded-opentype"), url('/fonts/ALSStory.woff') format("woff"), url('/fonts/ALSStory.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}

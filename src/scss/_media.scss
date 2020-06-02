@@ -1,0 +1,60 @@
+/* adaptive */
+
+@media (max-width: 767px) {
+  .c-hidden {
+    display: none;
+  }
+  .c-mobile-view {
+    display: block;
+    margin: 30px auto 15px;
+  }
+  .c-wrapper {
+    padding: 60px 0;
+  }
+  .c-block {
+    border-radius: 0;
+    &--content {
+      padding: 30px 15px;
+    }
+  }
+  .c-user--info span {
+    font-size: 0;
+    width: 20px;
+    height: 17px;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .c-list--block {
+    padding: 0 15px;
+    &__trigger {
+      width: calc(100% + 30px);
+      margin-left: -15px;
+      padding: 15px 50px 15px 15px;
+      &:after {
+        right: 15px;
+      }
+    }
+    &__content {
+      flex-wrap: wrap;
+      img {
+        margin: 30px auto 15px;
+      }
+    }
+  }
+  .c-list--block__content > div {
+    margin-right: 0;
+  }
+  .c-list--block__content.active {
+    padding: 15px 0;
+  }
+  .c-form--wrap {
+    width: 100%;
+  }
+  .c-submit {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+}
